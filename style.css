@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+    *{  margin: 0;
+        padding: 0;
+        box-sizing: border-box;}
+     
+    :root{
+    --Pink: hsl(322, 100%, 66%);
+    --VeryPaleCyan: hsl(193, 100%, 96%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --GrayishBlue: hsl(208, 11%, 55%);    
+    }
+    
+    body{
+    font-family: 'Popins', sans-serif;
+    width: 1440px;        
+    }
+    .top{
+        display: flex;
+        background-image: url('./images/bg-hero-desktop.svg');    
+        background-repeat: no-repeat;
+        background-color: var(--VeryPaleCyan);
+        background-blend-mode: multiply;   
+    }
+    .topleft{
+        width: 570px;
+        margin: 56px 0px 0px 74px;
+    }
+    .topright img{
+        max-width: 100%;
+    }
+    .topright{
+        width: 700px;
+    }
+    .topleft h1{
+        margin: 180px 0px 48px 0px;
+        color: var(--VeryDarkCyan);
+        font-size: 48px;
+    }
+
+    .topleft p{
+        color: var(--VeryDarkCyan);
+    }
+    .topleft button{
+        margin: 32px 0px 0px 0px;
+        width: 284px;
+        height: 58px;
+        border: none;
+        outline: none;
+        border-radius: 35px;
+        background: var(--Pink);
+        color: white;
+        font-weight: 700;
+        box-shadow: 5px 5px 5px grey;
+    }
+    .topleft button:hover{cursor: pointer;
+        opacity: .5;}
+    .topright button{
+        margin: 56px 0px 66px 500px;
+        width: 206px;
+        height: 52px;
+        border: none;
+        outline: none;
+        border-radius: 35px;
+        background: white;
+        color: black;
+        font-weight: 700;
+        box-shadow: 5px 5px 5px grey;
+    }
+    .topright button:hover{cursor: pointer;}
+    .middle{
+        position: relative;
+        padding: 152px 0px 332px 0px;
+       
+    }
+    .gt img, .yu img{
+        max-width: 100%;
+        padding: 48px;
+    }
+
+    .fc img{
+        max-width: 100%;
+        padding: 48px;
+        margin: 0px 0px 0px 74px;;
+
+    }
+    .gt, .fc, .yu{
+        display: flex;
+        width: 1242px;
+        height: 448px;
+        margin: 36px auto;
+        box-shadow: 1px 5px 5px 5px var(--GrayishBlue);
+        border-radius: 35px;
+    }
+    .gt article, .yu article{
+     margin:162px 96px 0px 122px;}
+
+     .fc article{
+        margin:162px 52px 0px 44px;
+     }
+    .gt p, .fc p, .yu p{
+        margin: 32px 0px 0px 0px;
+        color: var(--VeryDarkCyan);
+        font-size: 18px;
+    }
+
+    .gt h2, .fc h2, .yu h2{
+        color: var(--VeryDarkCyan);
+    }
+     .gsf{
+         position: absolute;
+         background: white;
+         width: 806px;
+         height: 288px;
+         border-radius: 15px;
+         box-shadow: 1px 5px 5px 5px var(--GrayishBlue);
+         margin: -180px 314px 32px 314px;
+     }
+     .gsf h2{
+         color: var(--VeryDarkCyan);
+         text-align: center;
+         padding: 76px 0px 0px 0px;
+     }
+
+     .gsf button{
+         margin: 48px 196px;
+         width: 404px;
+         height: 86px;
+         border: none;
+         outline: none;
+         font-size: 18px;
+         border-radius: 35px;
+         background: var(--Pink);
+         color: white;
+         font-weight: 700;
+         box-shadow: 5px 5px 5px grey;
+     }
+     .gsf button:hover{cursor: pointer;
+        opacity: .5;}
+     .btm{
+         padding: 180px 80px 64px 116px;
+         display: flex;
+         justify-content: space-between;
+         color: white;
+         background: var(--VeryDarkCyan);
+     }
+
+    .location img{
+        width: 20px;
+        height: 28px;
+    }
+     .location, .call, .email{
+         display: flex;
+         width: 374px;       
+         padding: 16px 0px;
+     }
+     .location p, .call p, .email p{
+         margin: 0px 0px 0px 32px;
+     }
+     #hlw{
+         padding: 0px 0px 16px 0px;
+     }
+     .location p{
+         font-size: 14px;
+     }
+      #btmart2 a, #btmart3 a {
+         color: white;        
+     } 
+     .btm a:link {
+        display: block;
+        text-decoration: none;       
+        padding: 16px 0px;
+        font-size: 22px;
+      }
+    .btm  a:visited {
+        text-decoration: none;
+      }
+    .btm  a:hover{
+         cursor: pointer;
+         text-decoration: underline;
+     }
+
+    .btm a:active {
+        text-decoration: underline;
+      }
+     #btmart2, #btmart3, #btmart4{
+        margin: 64px 0px 0px 0px;
+     }
+     
+    #btmart4 p{
+        margin: 176px 0px 0px 0px; 
+    }
+     
+     i{              
+        font-size: 32px;
+        margin: 8px 0px 0px 0px;
+        padding: 0px 12px 0px 0px;   
+       
+     }
+     .fab:hover{
+         cursor: pointer;
+         fill: var(--Pink);
+     }
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    @media screen and (max-width: 600px) {
+
+        body{
+            width: 375px;  
+        }
+
+        .top{
+            flex-direction: column;
+            background-image: url('./images/bg-hero-mobile.svg');
+            width: 375px;  
+        }
+
+        .topleft{
+            width: 375px;
+            margin: 56px 0px 0px 74px;
+        }
+       
+
+        .topright{
+            margin: 0px 80px;
+        }
+
+
+    }
