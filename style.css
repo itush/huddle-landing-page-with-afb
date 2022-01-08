@@ -28,6 +28,9 @@
         width: 570px;
         margin: 56px 0px 0px 74px;
     }
+    #tif{
+       visibility: hidden;
+    }
     .topright img{
         max-width: 100%;
     }
@@ -207,25 +210,152 @@
         .attribution a { color: hsl(228, 45%, 44%); }
     @media screen and (max-width: 600px) {
 
+       
         body{
-            width: 375px;  
+            width: 440px;
         }
 
         .top{
             flex-direction: column;
-            background-image: url('./images/bg-hero-mobile.svg');
-            width: 375px;  
+            background-image: url('./images/bg-hero-mobile.svg');         
+            padding: 32px;    
+            width: 440px;
         }
 
+        .topleft img{
+            width: 216px;
+            height: 42px;
+        }
+        .hdr{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #tif{
+            visibility: visible;
+            margin-top: 0px;
+            width: 195px;
+            height: 50px;
+            border: none;
+            outline: none;
+            border-radius: 35px;
+            background: white;
+            color: black;
+            font-weight: 700;
+            box-shadow: 5px 5px 5px grey;
+        }
         .topleft{
             width: 375px;
-            margin: 56px 0px 0px 74px;
+            margin: 56px 0px 0px 0px;
+           
         }
-       
+
+        .topleft h1{
+            text-align: center;
+            font-size: xx-large;
+        }   
+        
+        .topleft p{
+            text-align: center;
+            font-size: large;
+            padding: 0px 22px;
+        }
+        .topleft p br{
+            display: none;
+        }
+
+        .topleft button{
+        margin: 32px 0px 0px 32px;
+        }
 
         .topright{
-            margin: 0px 80px;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 32px 0px;
+            width: 375px;
+           
         }
+        .topright button{
+           visibility: hidden;
+            margin: 0px;
+            padding: 0px;}
+
+        .gt, .fc, .yu{                
+                width: 375px;
+                height: 625px;
+                margin: 32px 16px;
+                padding: 0;
+                }
+    .gt, .yu{
+        flex-direction: column-reverse;
+    }
+    .fc {
+        flex-direction: column;
+    }
+    .gt img, .yu img{
+        max-width: 100%;
+        padding: 0px 16px;           
+    }
+
+    .fc img{
+        max-width: 100%;
+        padding: 32px 16px;
+        margin: 0px ;
+
+    }
+    .gt article, .yu article{
+        margin:0px;
+        padding: 0px;}
+   
+        .fc article{
+           margin:0px;
+        }
+       .gt p, .fc p, .yu p{
+           margin: 0px;
+           text-align: center;
+           padding: 32px 8px;
+       }
+   
+       .gt h2, .fc h2, .yu h2{
+        text-align: center;        
+        padding: 32px 0px;
+       }
+
+       .middle{        
+        padding: 152px 0px;
+       
+    }
+       .gsf{
+           width: 350px;
+           height: 192px;
+           margin: -96px 16px 32px 16px;
+       }
+
+       .gsf h2{padding: 64px 0px 32px 0px;
+            font-size: larger;}
+
+       .gsf button{ width: 192px;
+                    height: 32px;
+        margin: 0px 0px 0px 64px;
+        border-radius: 15px;
+        font-size: small;}
+
+        .btm{
+            flex-direction: column;
+            padding: 196px 16px 0px 16px;
+            width: 440px;
+        }
+
+        #btmart3, #btmart4 p{
+            margin: 16px 0px;
+        }
+        #btmart4{
+            width: 375px;
+           
+        }
+        i{   
+           margin: 8px 0px 0px 32px;;
+        }
+       
 
 
     }
