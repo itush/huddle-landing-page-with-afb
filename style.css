@@ -56,7 +56,7 @@
         background: var(--Pink);
         color: white;
         font-weight: 700;
-        box-shadow: 5px 5px 5px grey;
+        box-shadow: 1px 5px 5px 5px var(--VeryPaleCyan);
     }
     .topleft button:hover{cursor: pointer;
         opacity: .5;}
@@ -70,7 +70,7 @@
         background: white;
         color: black;
         font-weight: 700;
-        box-shadow: 5px 5px 5px grey;
+        box-shadow: 1px 5px 5px 5px var(--VeryPaleCyan);
     }
     .topright button:hover{cursor: pointer;}
     .middle{
@@ -94,7 +94,7 @@
         width: 1242px;
         height: 448px;
         margin: 36px auto;
-        box-shadow: 1px 5px 5px 5px var(--GrayishBlue);
+        box-shadow: 1px 5px 5px 5px var(--VeryPaleCyan);
         border-radius: 35px;
     }
     .gt article, .yu article{
@@ -118,7 +118,7 @@
          width: 806px;
          height: 288px;
          border-radius: 15px;
-         box-shadow: 1px 5px 5px 5px var(--GrayishBlue);
+         box-shadow: 1px 5px 5px 5px var(--VeryPaleCyan);
          margin: -180px 314px 32px 314px;
      }
      .gsf h2{
@@ -208,9 +208,7 @@
      }
         .attribution { font-size: 11px; text-align: center; }
         .attribution a { color: hsl(228, 45%, 44%); }
-    @media screen and (max-width: 600px) {
-
-       
+    @media screen and (max-width: 600px) {       
         body{
             width: 440px;
         }
